@@ -46,6 +46,7 @@ if (isset ($_POST['submit'])){
     <title>Tambah Data Mahasiswa</title>
 </head>
 <body>
+    <h1>Tambah Data Mahasiswa</h1>
     <form action="insert.php" method='POST'>
         NIM: <input type="text" name='nim'><br>
         Nama: <input type="text" name='nama'><br>
@@ -56,5 +57,6 @@ if (isset ($_POST['submit'])){
         Alamat: <input type="text" name='alamat'><br>
         <button type='submit' name='submit'>Tambah Data</button>
     </form>
+    <a href="index.php">Beranda</a>
 </body>
 </html>
